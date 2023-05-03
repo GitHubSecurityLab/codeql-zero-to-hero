@@ -1,5 +1,3 @@
-# CodeQL Zero To Hero challenge
+# CodeQL Zero To Hero challenges
 
-Instructions:
-1. Fork this repository
-2. Go to 
+This repository contains challenges for the CodeQL Zero to Hero blog post series.
