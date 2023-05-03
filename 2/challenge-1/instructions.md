@@ -14,4 +14,4 @@ Note: If anyone of the steps below do not work or look different, check out the 
 
 5. Wait a few minutes for the scan to complete. Go to 'Security' tab and see the alerts that have been triggered.
 
-// The code has shamelessly been copied from the [CodeQL examples](https://github.com/github/codeql/blob/main/python/ql/src/Security/CWE-089/examples/sql_injection.py).
+The code for this challenge has shamelessly been copied from the [CodeQL examples](https://github.com/github/codeql/blob/main/python/ql/src/Security/CWE-089/examples/sql_injection.py).
