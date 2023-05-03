@@ -9,6 +9,7 @@ Note: If anyone of the steps below do not work or look different, check out the 
 ![image](https://user-images.githubusercontent.com/102833689/236031570-fd77279c-bb4f-422b-847c-f9d790929b1e.png)
 
 4. A pop up should appear. Click 'Enable CodeQL'
+
 ![image](https://user-images.githubusercontent.com/102833689/236031879-815c0e57-d2d2-4d3d-bb4b-d7553c76de94.png)
 
 5. Wait a few minutes for the scan to complete. Go to 'Security' tab and see the alerts that have been triggered.
