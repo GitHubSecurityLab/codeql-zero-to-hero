@@ -1,12 +1,7 @@
 import subprocess
 from django.conf.urls import url
-import django
 
-urlpatterns = [
-    # Route to command_execution
-    url(r'^command-ex1$', command_execution_unsafe, name='command-execution-unsafe'),
-    url(r'^command-ex2$', command_execution_safe, name='command-execution-safe')
-]
+
 
 COMMANDS = {
     "list" :"ls",
@@ -24,3 +19,9 @@ def command_execution_safe(request):
         action = request.POST.get('action', '')
         #GOOD -- Use an allowlist
         subprocess.call(["application", COMMANDS[action]])
+
+urlpatterns = [
+    # Route to command_execution
+    url(r'^command-ex1$', command_execution_unsafe, name='command-execution-unsafe'),
+    url(r'^command-ex2$', command_execution_safe, name='command-execution-safe')
+]
