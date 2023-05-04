@@ -11,4 +11,4 @@ Choose an open source project in a language of your choice, preferably a web app
 
 1.5 Do any of the sources flow into a sink?
 
-Hint: if you can’t find a project, utilize GitHub search functionality, for example, type in the GitHub search bar “language:python stars:>100 type:repositories”. You could also choose one of the intentionally vulnerable projects from OWASP DVWA wherein we have an open source repository.
+Hint: if you can’t find a project, utilize GitHub search functionality, for example, type in the GitHub search bar [“language:python stars:>100 type:repositories”](https://github.com/search?q=language%3Apython++stars%3A%3E100+type%3Arepositories&type=repositories&s=stars&o=desc). You could also choose one of the intentionally vulnerable projects from OWASP DVWA wherein we have an open source repository.
