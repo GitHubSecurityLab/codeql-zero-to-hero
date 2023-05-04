@@ -1,5 +1,6 @@
 import subprocess
 from django.conf.urls import url
+import django
 
 urlpatterns = [
     # Route to command_execution
