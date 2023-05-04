@@ -16,7 +16,7 @@ def command_execution_unsafe(request):
     if request.method == 'POST':
         action = request.POST.get('action', '')
         #BAD -- No sanitizing of input
-        subprocess.call(["application", action])
+        subprocess.call("applicaton " +action, shell=True)
 
 def command_execution_safe(request):
     if request.method == 'POST':
