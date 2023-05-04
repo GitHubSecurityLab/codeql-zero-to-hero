@@ -1,4 +1,5 @@
-# Instructions:
+# Challenge 1 - add the Code Scanning GitHub action to a repository
+## Instructions:
 
 1. Fork this repository.
 Note: If anyone of the steps below do not work or look different, check out the [documentation](https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning-for-a-repository#configuring-code-scanning-automatically).
