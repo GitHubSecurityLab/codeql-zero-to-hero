@@ -7,7 +7,8 @@ class User(models.Model):
     pass
 
 @app.route("/users/<username>")
-def show_user(username):
+def show_user():
+    username = request.args.get("username")
     with connection.cursor() as cursor:
         # GOOD -- Using parameters
         cursor.execute("SELECT * FROM users WHERE username = %s", username)
