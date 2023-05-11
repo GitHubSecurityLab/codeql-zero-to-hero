@@ -3,7 +3,7 @@
 The CodeQL command line tool allows you to create databases from locally-sourced code. In this challenge, you will create a database for the vulnerable code we used in earlier exercises. 
 
 ## Use the GitHub Codespace created in the previous challenge or install CodeQL CLI
-The GitHub Codespace that you created in the previous challenge comes with CodeQL CLI preinstalled. If you did create the codespace, you can skip this section and go to 
+The GitHub Codespace that you created in the previous challenge comes with CodeQL CLI preinstalled. If you did create the codespace, you can skip this section and go to [#create-a-codeql-database](#create-a-codeql-database).
 
 If you did not create the codespace in the previous step, the easiest way to install the CodeQL CLI locally is as an extension to the `gh` CLI tool — GitHub's official CLI tool.
 1. If you don't have `gh` installed, install it using the instructions [here](https://github.com/cli/cli#installation).
@@ -41,7 +41,7 @@ deactivate
 ```
 6. Go to the VS Code CodeQL extension, click on "Choose Database from folder" and select the "example-codeql-db" that you have created in step 5. 
 If you haven't set up the premade codespace or installed VS Code with CodeQL extension, see the instructions in [challenge 2](https://github.com/sylwia-budzynska/codeql-zero-to-hero/blob/main/2/challenge-2/instructions.md).
-<img src="images/choose-db.png" width="380" alt="Screenshot: Select CodeQL DB from folder icon">
+<img src="../../images/choose-db.png" width="380" alt="Screenshot: Select CodeQL DB from folder icon">
 
 And that's how you create and upload a CodeQL to continue with further analysis.
 Congrats on completing challenge 3! 🎉
