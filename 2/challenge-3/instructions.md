@@ -8,7 +8,8 @@ The GitHub Codespace that you created in the previous challenge comes with CodeQ
 If you did not create the codespace in the previous step, the easiest way to install the CodeQL CLI locally is as an extension to the `gh` CLI tool — GitHub's official CLI tool.
 1. If you don't have `gh` installed, install it using the instructions [here](https://github.com/cli/cli#installation).
 2. Install the CodeQL extension using:
-```gh extensions install github/gh-codeql
+```
+gh extensions install github/gh-codeql
 gh codeql install-stub```
 The second command will enable you to run the CLI tool just by typing `codeql` instead of `gh codeql`.
 If you encounter any issues, check the [docs](https://github.com/github/gh-codeql#installation).
