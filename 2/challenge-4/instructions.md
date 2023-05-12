@@ -12,7 +12,7 @@ With the setup that you created in the earlier challenges, we will run the query
 3. Check that the database is selcted, like in the step 1.
 
 ## 
-1. Got to the 'Explorer' tab and create a new file in the `codeql-custom-queries` folder. Call it `call.ql` and copy the below query into the file.
+1. Got to the 'Explorer' tab and create a new file in the `codeql-custom-queries-python` folder. Call the file `call.ql` and copy the below query into the file.
 ```ql
 import python
 
