@@ -8,7 +8,7 @@ With the setup that you created in the earlier challenges, we will run the query
 
 <img src="../../images/download-from-github.png"  width="380" alt="Screenshot: Select CodeQL DB from GitHub icon">
 
-<img src="/images/specify-github-repo.png"  width="620" alt="Screenshot: Enter a GitHub repository URL">
+<img src="../../images/specify-github-repo.png"  width="620" alt="Screenshot: Enter a GitHub repository URL">
 3. Check that the database is selcted, like in the step 1.
 
 ## 
@@ -24,3 +24,4 @@ select call
 3. Right click anywhere in the writing area of the query file and choose "CodeQL: Run Query on Selected Database"
 4. After a few seconds you should see results, like so:
 
+<img src="../../images4-resutls.png" width="450" alt="Screenshot: Results of running the query">
