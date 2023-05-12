@@ -1,4 +1,10 @@
 # Challenge 1 - add the Code Scanning GitHub action to a repository
+In this challenge, we will enable code scanning on a fork of this repository and observe what vulenrabilities CodeQL finds. The repository contains several intentionally vulnerable code snippets.
+
+If you prefer, you can choose another open source project, make a fork of it on your personal GitHub account and then enable Code Scanning on it. You can also choose one of your own public projects instead. If you encounter problems, see documentation for [enabling code scanning](https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning-for-a-repository#configuring-code-scanning-automatically). 
+
+Hint: If you can’t find a project, use the GitHub search functionality, e.g. type in the GitHub search bar “language:python  stars:>100 type:repositories”
+
 ## Instructions:
 
 1. Fork this repository.
