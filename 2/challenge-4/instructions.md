@@ -24,4 +24,4 @@ select call
 3. Right click anywhere in the writing area of the query file and choose "CodeQL: Run Query on Selected Database"
 4. After a few seconds you should see results, like so:
 
-<img src="../../images/4-resutls.png" width="450" alt="Screenshot: Results of running the query">
+<img src="../../images/4-results.png" width="450" alt="Screenshot: Results of running the query">
