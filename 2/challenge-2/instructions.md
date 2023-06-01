@@ -30,6 +30,8 @@ Note: The first 120h hours per core of Codespace usage are free per month, we us
 
 => This will generate a so called CodeQL pack, which contains configuration for running Python queries. At this point, you can write as many CodeQL for Python queries as you want inside the folder `codeql-custom-queries-python` that was generated. 
 
+You can also download databases from GitHub by following the steps in the #sSelect CodeQL database section.
+
 If you'd like to, you can choose another repository written in Python, but in that case the results after running the queries will be different. You can also choose another language and a repository in that language, but bear in mind that the queries for that language will be different than the ones in the blog post.
 
 ## Option B: Local installation
