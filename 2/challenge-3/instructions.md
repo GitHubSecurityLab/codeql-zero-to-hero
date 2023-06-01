@@ -5,7 +5,7 @@ The CodeQL command line tool allows you to create databases from locally-sourced
 ## Use the GitHub Codespace created in the previous challenge or install CodeQL CLI
 The GitHub Codespace that you created in the previous challenge comes with CodeQL CLI preinstalled. If you did create the codespace, you can skip this section and go to [#create-a-codeql-database](#create-a-codeql-database).
 
-If you did not create the codespace in the previous step, the easiest way to install the CodeQL CLI locally is as an extension to the `gh` CLI tool — GitHub's official CLI tool.
+If you did not create the codespace in the previous challenge, the easiest way to install the CodeQL CLI locally is as an extension to the `gh` CLI tool — GitHub's official CLI tool.
 1. If you don't have `gh` installed, install it using the instructions [here](https://github.com/cli/cli#installation).
 2. Install the CodeQL extension using:
 ```bash
