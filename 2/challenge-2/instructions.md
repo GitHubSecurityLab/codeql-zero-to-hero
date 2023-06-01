@@ -49,11 +49,6 @@ Use a local CodeQL installation to work on the exercises.
 4. `$ git submodule init`
 5. `$ git submodule update --recursive`
 6. In VS Code: File -> **Open Workspace from File...** `vscode-codeql-starter.code-workspace`
-
-=> VS Code will start and the CodeQL CLI (binaries) will be installed. (approx. 500 MB of additional data need to be downloaded))
-
-<img src="images/codeql-cli-dl.png"  width="399" alt="Screenshot: CodeQL for VS Code downloads CodeQL binaries">
-
 7. Continue with [Selecting a CodeQL Database](#select-codeql-database)
 8. Then [Test your installation](#test-your-installation)
 
