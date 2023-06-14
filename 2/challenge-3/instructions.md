@@ -25,21 +25,15 @@ git clone https://github.com/sylwia-budzynska/codeql-zero-to-hero.git
 ```bash
 cd codeql-zero-to-hero
 ```
-3. Create a virtual environment, activate it and install the repository dependencies.
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-4. Create a CodeQL database
+3. Create a CodeQL database
 ```bash
 gh codeql database create example-codeql-db --language=python
 ```
-5. Deactivate the virtual environment
+4. Deactivate the virtual environment
 ```bash
 deactivate
 ```
-6. Go to the VS Code CodeQL extension, click on "Choose Database from folder" and select the "example-codeql-db" that you have created in step 5. 
+5. Go to the VS Code CodeQL extension, click on "Choose Database from folder" and select the "example-codeql-db" that you have created in step 5. 
 If you haven't set up the premade codespace or installed VS Code with CodeQL extension, see the instructions in [challenge 2](https://github.com/sylwia-budzynska/codeql-zero-to-hero/blob/main/2/challenge-2/instructions.md).
 <img src="../../images/choose-db.png" width="380" alt="Screenshot: Select CodeQL DB from folder icon">
 
