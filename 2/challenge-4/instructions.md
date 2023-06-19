@@ -20,7 +20,7 @@ from Call call
 where call.getLocation().getFile().getRelativePath().regexpMatch("2/challenge-1/.*")
 select call
 ```
-2. Hover over `Call` in the third line. This will show you the defnintion of the `Call` type. You can always hover over any part of the query to see if there is a defnition for it.
+2. Hover over `Call` in the third line. This will show you the definition of the `Call` type. You can always hover over any part of the query to see if there is a definition for it.
 3. Right click anywhere in the writing area of the query file and choose "CodeQL: Run Query on Selected Database"
 4. After a few seconds you should see results, like so:
 
