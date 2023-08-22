@@ -29,7 +29,7 @@ Some open source projects will have their own Actions workflows defined. If you 
 
 That's why before you enable code scanning, it's better if you first delete all actions workflows from your fork (generally they can be found in the `.github/workflows` folder), then go to the Actions tab and make sure that Actions are enabled.
 
-1. Fork an open source project.
+1. Fork an open source project. When forking, select the option `Copy the main branch only`.
 
 2. Check if the `.github/workflows` folder exists and if it does, delete it from your fork.
 
