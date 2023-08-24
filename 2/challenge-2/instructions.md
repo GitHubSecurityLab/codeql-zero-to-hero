@@ -9,7 +9,7 @@ You can choose between several options to do the exercises:
 * CodeQL in [emacs](https://github.com/anticomputer/emacs-codeql) 
 
 
-## GitHub Codespace
+## Option A: GitHub Codespace
 
 Use a remote GitHub Codespace to work on the exercises.
 
@@ -91,9 +91,6 @@ Make sure that the previously chosen CodeQL database is selected in the CodeQL v
 =>  The output should look like this:
 
 <img src="../../images/test-hello-world.png"  width="620" alt="Screenshot: First CodeQL query results">
-
-
-Go to the [github/codespaces-codeql](https://github.com/github/codespaces-codeql) repository, press the “Use this template” button and choose “Open in a codescape”. Follow the instructions outlined in “Running the code tour” section. Download a CodeQL database according to the instructions below.
 
 The rest of the challenges will assume that you have the VS Code with CodeQL extension and CodeQL starter workspace setup with a CodeQL database of your choice
 
