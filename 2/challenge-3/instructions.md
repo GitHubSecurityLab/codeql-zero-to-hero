@@ -33,9 +33,8 @@ gh codeql database create example-codeql-db --language=python
 ```bash
 deactivate
 ```
-5. Go to the VS Code CodeQL extension, click on "Choose Database from folder" and select the "example-codeql-db" that you have created in step 5. 
+5. Go to the VS Code CodeQL extension, click on the "Choose Database from folder" icon and select the "example-codeql-db" that you have created in step 5. 
 If you haven't set up the premade codespace or installed VS Code with CodeQL extension, see the instructions in [challenge 2](https://github.com/GitHubSecurityLab/codeql-zero-to-hero/blob/main/2/challenge-2/instructions.md).
-<img src="../../images/choose-db.png" width="380" alt="Screenshot: Select CodeQL DB from folder icon">
 
 And that's how you create and upload a CodeQL to continue with further analysis.
 Congrats on completing challenge 3! 🎉
