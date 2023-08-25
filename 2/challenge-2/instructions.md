@@ -67,7 +67,7 @@ In case you see errors such as:
 
 1. Make sure you have the workspace `vscode-codeql-starter.code-workspace` open in VS Code.
 2. Go To the CodeQL View
-3. Click on choose the “Download database from GitHub” option, the one with the GitHub logo (Fun fact! Did you know that the character in the logo is called Monalisa? Now you know!). This option allows you to specify any public repo on GitHub to download as a CodeQL database - as long as it uses one of the supported languages by CodeQL. Write `sylwia-budzynska/codeql-zero-to-hero` and press Enter.
+3. Click on choose the “Download database from GitHub” option, the one with the GitHub logo (Fun fact! Did you know that the character in the logo is called Monalisa? Now you know!). This option allows you to specify any public repo on GitHub to download as a CodeQL database - as long as it uses one of the supported languages by CodeQL. Write `GitHubSecurityLab/codeql-zero-to-hero` and press Enter.
 
 <img src="../../images/download-from-github.png"  width="380" alt="Screenshot: Select CodeQL DB from GitHub icon">
 
