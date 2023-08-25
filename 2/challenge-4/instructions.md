@@ -3,8 +3,8 @@
 With the setup that you created in the earlier challenges, we will run the query to show all function calls. You can either use the codespace with VS Code, or use VS Code locally.
 
 ## Make sure you have the database selected
-1. In the CodeQL tab, check that you have the `sylwia-budzynska/codeql-zero-to-hero` database downloaded and selected. There should be a checkmark next to the database name. If there isn't, hover over the database name until 'Select' button appears, then press that button.
-2. If you haven't downloaded the database for this repository, go to the CodeQL tab and click on choose the “Download database from GitHub” option, the one with the GitHub logo. This option allows you to specify any public repo on GitHub to download as a CodeQL database - as long as it uses one of the supported languages by CodeQL. Write `sylwia-budzynska/codeql-zero-to-hero` and press Enter.
+1. In the CodeQL tab, check that you have the `GitHubSecurityLab/codeql-zero-to-hero` database downloaded and selected. There should be a checkmark next to the database name. If there isn't, hover over the database name until 'Select' button appears, then press that button.
+2. If you haven't downloaded the database for this repository, go to the CodeQL tab and click on choose the “Download database from GitHub” option, the one with the GitHub logo. This option allows you to specify any public repo on GitHub to download as a CodeQL database - as long as it uses one of the supported languages by CodeQL. Write `GitHubSecurityLab/codeql-zero-to-hero` and press Enter.
 
 <img src="../../images/download-from-github.png"  width="380" alt="Screenshot: Select CodeQL DB from GitHub icon">
 
