@@ -19,7 +19,7 @@ If you encounter any issues, check the [docs](https://github.com/github/gh-codeq
 For creating a CodeQL database, you can use the examples from this repository, or choose another open source repository. For creating CodeQL databases with languages other than Python, see docs.
 1. Clone this repo to your local machine.
 ```bash
-git clone https://github.com/sylwia-budzynska/codeql-zero-to-hero.git
+git clone https://github.com/GitHubSecurityLab/codeql-zero-to-hero.git
 ```
 2. Move to the cloned directory.
 ```bash
