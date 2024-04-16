@@ -1,1 +1,3 @@
-Run the query with `getAQlClass` predicate
+Run a query with `getAQlClass` predicate.
+
+See example in this folder.
