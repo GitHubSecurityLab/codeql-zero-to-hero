@@ -1,0 +1,2 @@
+You will need to use the VS Code CodeQL Starter Workspace for this challenge. See [setup](https://github.com/GitHubSecurityLab/codeql-zero-to-hero/blob/main/2/challenge-2/instructions.md#option-b-local-installation).
+CodeQL for Python stores all its security related queries in `python/ql/src/Security/` folder and experimental queries in python/ql/src/experimental/Security. The folder structure might differ a bit for other languages, for example Ruby in `ruby/ql/src/queries/security` or  C# in `csharp/ql/src/Security Features`.
