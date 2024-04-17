@@ -15,4 +15,8 @@ def show_user(request, username):
         # BAD -- Manually quoting placeholder (%s)
         cursor.execute("SELECT * FROM users WHERE username = '%s'" % username)
         user = cursor.fetchone()
+
+        # GOOD - string literal
+        cursor.execute("SELECT * FROM users WHERE username = 'johndoe'")
+        user = cursor.fetchone()
 urlpatterns = [url(r'^users/(?P<username>[^/]+)$', show_user)]
