@@ -1,11 +1,7 @@
 /**
- * @name DataFlow configuration
- * @description DataFlow TaintTracking configuration
  * @kind path-problem
- * @precision low
  * @problem.severity error
- * @id githubsecuritylab/dataflow-query
- * @tags template
+ * @id githubsecuritylab/3-6
  */
 
  import python

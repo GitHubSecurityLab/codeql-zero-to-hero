@@ -1,3 +1,8 @@
+/**
+ * @id codeql-zero-to-hero/3-5
+ * @severity error
+ * @kind problem
+ */
 import python
 import semmle.python.ApiGraphs
 
@@ -18,4 +23,4 @@ predicate executeNotLiteral(DataFlow::CallCfgNode call) {
 
 from DataFlow::CallCfgNode call
 where executeNotLiteral(call)
-select call
+select call, "Call to django.db execute with an argument that is not a literal"
