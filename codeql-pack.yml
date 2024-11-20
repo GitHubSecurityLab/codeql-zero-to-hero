@@ -1,7 +1,0 @@
----
-library: false
-warnOnImplicitThis: false
-name: getting-started/codeql-extra-queries-python
-version: 1.0.0
-dependencies:
-  codeql/python-all: ^0.11.13
