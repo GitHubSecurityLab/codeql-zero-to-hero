@@ -1,5 +1,5 @@
 /**
- * @id codeql-zero-to-hero/4-rfs
+ * @id codeql-zero-to-hero/4-4
  * @severity error
  * @kind problem
  */
